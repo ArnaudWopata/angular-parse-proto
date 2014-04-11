@@ -1,0 +1,20 @@
+<div class="content-padded">
+  <form class="input-group">
+    <div class="input-row">
+      <label>Login</label>
+      <input type="text" placeholder="arnaudrinquin" ng-model="user.username">
+    </div>
+    <div class="input-row">
+      <label>Mot de passe</label>
+      <input type="password" ng-model="user.password">
+    </div>
+
+  </form>
+
+  <div ng-show="error" class="error">
+    {{error}}
+  </div>
+
+  <button ng-disabled="status == 'pending'" class="btn btn-block btn-primary" ng-click="signIn(user)">Se connecter</button>
+</div>
+
