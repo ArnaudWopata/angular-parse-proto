@@ -299,3 +299,8 @@ following to the end of the `body` tag in `index.html`:
 ```
 
 Boom!
+=======
+angular-parse-proto
+===================
+
+A prototype angular+parse client. Goal: find the better way to wrap parse into Angular Services, Models etc...
